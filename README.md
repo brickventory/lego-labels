@@ -4,7 +4,7 @@ This is a modified version of the labels from the [LEGO Brick labels at brickarc
 
 - designed for Brother labels printer and the P-Touch software
 - format 62 x 13mm
-- folder organization according to [BrickLink catalog categories](http://http://www.bricklink.com/)
+- folder organization according to [BrickLink catalog categories](http://www.bricklink.com/catalogTree.asp?itemType=P)
 
 ## Contribution
 
