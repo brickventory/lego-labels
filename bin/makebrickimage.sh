@@ -18,7 +18,7 @@ PART_NUMBER=$1
 # ------------------------------------------------------------
 GENERAL_PARAMS="-Antialias=0 -LineSmoothing=0 -TransDefaultColor=0 -DefaultColor3=0xFFFFFF -BackgroundColor3=0xFFFFFF -ProcessLDConfig=1 -MemoryUsage=2"
 
-GEOMETRY_PARAMS="-Seams=1 -SeamWidth=50 -BoundingBoxesOnly-0 -Wireframe=0 -RemoveHiddenLines=0 -WireframeFog=0 -WireframeThickness=5 -BFC=0 -ShowHighlightLines=1 -EdgesOnly=0 -ConditionalHighlights=1 -ShowAllType5=0 -ShowType5ControlPoints=0 -PolygonOffset=1 -BlackHighlights=1 -EdgeThickness=5"
+GEOMETRY_PARAMS="-Seams=1 -SeamWidth=50 -BoundingBoxesOnly=0 -Wireframe=0 -RemoveHiddenLines=0 -WireframeFog=0 -WireframeThickness=5 -BFC=0 -ShowHighlightLines=1 -EdgesOnly=0 -ConditionalHighlights=1 -ShowAllType5=0 -ShowType5ControlPoints=0 -PolygonOffset=1 -BlackHighlights=1 -EdgeThickness=5"
 
 EFFECTS_PARAMS="-Lighting=1 -UseQualityLighting=1 -SubduedLighting=0 -UseSpecular=1 -OneLight=0 -LightVector=-1,1,1 -OptionalStandardLight=1 -DrawLightDats=1 -NoLightGeom=0 -StereoMode=0 -CutawayMode=0  -SortTransparent=1 -UseStipple=0 -UseFlatShading=0 -PerformSmoothing=1"
 
@@ -41,4 +41,4 @@ PERSPECTIVE270="-FOV=0.1 -DefaultZoom=0.95 -DefaultMatrix=-0.5,0,-0.866025,-0.49
 # -----------------
 # THIS PART MAKES THE IMAGE
 # -----------------
-$LDVIEW_APP $PARTS/$PART_NUMBER.dat "$PARAMS $PERSPECTIVE" "-SaveSnapshot=$SAVE_DIR$PART_NUMBER.png"
+$LDVIEW_APP $PARAMS "$PERSPECTIVE" $PARTS/$PART_NUMBER.dat -SaveSnapshot=$SAVE_DIR$PART_NUMBER.png
