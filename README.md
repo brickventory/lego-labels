@@ -17,3 +17,11 @@ Use the `makebrickimage.sh` script located at `/bin`. It uses the ldraw library 
 ## Contribution
 
 Use the `label-template.lbx` file to generate a new label. The new file name should follow the `$elementNumber-$elementName{-$elementColor}.lbx`format.
+
+## References
+
+[LDView project page](https://tcobbs.github.io/ldview/)
+
+[LDView help](https://trevorsandy.github.io/lpub3d/assets/docs/ldview/Help.html)
+
+List of available [command line options for LDView](https://trevorsandy.github.io/lpub3d/assets/docs/ldview/Help.html#CommandLinePrefs).

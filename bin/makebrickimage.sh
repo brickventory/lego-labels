@@ -4,7 +4,7 @@
 # USAGE
 # run this script with the desired part number as parameter 
 # example:
-# ~ makebrickimage 3004
+# ~ makebrickimage.sh 3004
 # -----------
 
 # INSTRUCTIONS: Modify "LDVIEW_APP" and "PARTS" to point to the correct
