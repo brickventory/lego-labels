@@ -1,6 +1,6 @@
 # BrickVentory Labels
 
-This is a modified version of the labels from the [LEGO Brick labels at brickarchitect.com](http://http://brickarchitect.com/labels/).
+This is a modified version of the labels from the [LEGO Brick labels at brickarchitect.com](http://brickarchitect.com/labels/).
 
 - designed for Brother labels printer and the P-Touch software
 - format 62 x 13mm
