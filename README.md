@@ -11,7 +11,7 @@ This is a modified version of the labels from the [LEGO Brick labels at brickarc
 
 ![label measurements](label-template_62x13.png)
 
-The labels use the **Chalet London** and **Chalet New York** fonts, which are the fonts used on the original LEGO boxes. You can find the font files in the `/font` folder.
+The labels use the **Chalet London 1960** and **Chalet New York 1960** fonts, which are the fonts used on the original LEGO boxes. You can find the font files in the `/font` folder.
 ## Image creation
 
 Use the `makebrickimage.sh` script located in the `/bin` folder. It uses the ldraw library and the ldview programm.
